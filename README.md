@@ -1,6 +1,6 @@
-# Computer Aided Diagnosis of Pneumonia based on Transfer Learning of VGG16
+# Computer Aided Diagnosis of Obesity Disorder based on Custom CNN
 
-> Based on Transfer Learning of VGG16 architecture. The work uses Kaggle Pneumonia dataset https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/home for training and validation. It uses Flask webapp by mtobeiyf to deploy the Keras Model https://github.com/mtobeiyf/keras-flask-deploy-webapp.
+> Based on Custom CNN architecture. The work uses proprietory image dataset obtained from SRM Hospital for training and validation. It uses Flask webapp by mtobeiyf to deploy the Keras Model https://github.com/mtobeiyf/keras-flask-deploy-webapp.
 
 [![](https://img.shields.io/badge/python-2.7%2C%203.5%2B-green.svg)]()
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
@@ -17,14 +17,14 @@
 
 :point_down:Screenshot:
 
-![alt text](https://i.postimg.cc/6qYBQ4fh/image.png)
+![alt text](https://i.postimg.cc/gjWC1L2G/Screenshot-29.png)
 
 ------------------
 ## Local Installation
 
 ### Clone the repo
 ```shell
-$ git clone https://github.com/palanithanarajk/pneumonia-diagnosis.git
+$ git clone https://github.com/palanithanarajk/obesity-detection-app.git
 ```
 
 ### Install requirements
@@ -40,6 +40,7 @@ Make sure you have the following installed:
 - pillow
 - h5py
 - gevent
+- gunicorn
 
 ### Run with Python
 
@@ -54,10 +55,10 @@ $ python app.py
 Open http://localhost:5000 and have fun. :smiley:
 
 > Analyze
-![alt text](https://i.postimg.cc/W4FKFqT7/image.png)
+![alt text](https://i.postimg.cc/4ys0WCWd/Screenshot-27.png)
 
-> Diagnosis
-![alt text](https://i.postimg.cc/4y9zktkm/image.png)
+> Diagnosis Result
+![alt text](https://i.postimg.cc/rsjPbhH9/Screenshot-28.png)
 
 
 ------------------
