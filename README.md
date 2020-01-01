@@ -101,9 +101,9 @@ server {
     }
 }
 ```
-## A Google App Engine Deployement using this code
+## A Heroku App Deployment using this code
 Try this live AI Demo
-https://valiant-metric-208417.appspot.com/
+https://dl-obesity-detection-ir.herokuapp.com/
 
 ## More resources
 
